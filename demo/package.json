@@ -1,0 +1,25 @@
+{
+  "name": "@hoco_editor/demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "babel src --out-dir dist --copy-files"
+  },
+  "dependencies": {
+    "@hoco_editor/bold_plugin": "1.0.0",
+    "@hoco_editor/italic_plugin": "1.0.0",
+    "@hoco_editor/font_family_plugin": "1.0.0",
+    "@hoco_editor/font_size_plugin": "1.0.0",
+    "classnames": "^2.2.6",
+    "react": "^16.5.2",
+    "slate": "^0.41.2",
+    "slate-react": "^0.18.10"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}

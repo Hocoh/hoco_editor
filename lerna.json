@@ -1,0 +1,19 @@
+{
+  "version": "patch",
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+          "ignored-file",
+          "node_modules",
+          "*.md"
+      ]
+    },
+    "bootstrap": {
+      "ignore": "component-*",
+      "npmClientArgs": ["--no-package-lock"]      
+    }
+  },
+ "npmClient": "yarn",
+ "useWorkspaces": true,
+ "packages": ["packages/*", "demo/*"]
+}

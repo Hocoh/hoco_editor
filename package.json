@@ -1,0 +1,28 @@
+{
+  "name": "hocotext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*", 
+    "demo/*"
+  ],
+  "private": true, 
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "test": "lerna run test:ci",  
+    "clean": "lerna clean",  
+    "clean:build": "lerna exec -- rimraf lib",  
+    "release": "lerna publish",  
+    "ls": "lerna ls"  
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0"
+  },
+  "devDependencies": {
+    "lerna": "^3.4.0"
+  }
+}

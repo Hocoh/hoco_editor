@@ -1,9 +1,9 @@
 {
-  "version": "0.0.0",
+  "version": "1.0.0",
   "command": {
     "publish": {
       "ignoreChanges": [
-        "ignored-file", 
+        "ignored-file",
         "*.md",
         "packages/alignment_plugin",
         "packages/embed_plugin",

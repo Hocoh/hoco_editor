@@ -1,27 +1,35 @@
 Arguments: 
-  /home/ulimwengu/node_modules/node/bin/node /usr/share/yarn/bin/yarn.js add react slate slate-react classnames
+  /home/ulimwengu/.nvm/versions/node/v8.11.1/bin/node /usr/share/yarn/bin/yarn.js add react slate slate-react classnames
 
 PATH: 
-  /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/bold_plugin/node_modules/.bin:/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/node_modules/.bin:/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/node_modules/.bin:/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/node_modules/.bin:/home/ulimwengu/Documents/Coding/00_backendDevelopment/node_modules/.bin:/home/ulimwengu/Documents/Coding/node_modules/.bin:/home/ulimwengu/Documents/node_modules/.bin:/home/ulimwengu/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/home/ulimwengu/.nvm/versions/node/v8.11.1/bin:/home/ulimwengu/.nvm/versions/node/v8.11.1/bin:/home/ulimwengu/bin:/home/ulimwengu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ulimwengu/commands
+  /home/ulimwengu/.nvm/versions/node/v8.11.1/bin:/home/ulimwengu/bin:/home/ulimwengu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ulimwengu/commands
 
 Yarn version: 
   1.9.4
 
 Node version: 
-  10.0.0
+  8.11.1
 
 Platform: 
   linux x64
 
 Trace: 
-  Error: EEXIST: file already exists, symlink '../../../../node_modules/babel-cli/bin/babel.js' -> '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/editor_implementation/node_modules/.bin/babel'
+  TypeError: Cannot read property 'manifest' of undefined
+      at _loop (/usr/share/yarn/lib/cli.js:22695:102)
+      at _loop.next (<anonymous>)
+      at Add.<anonymous> (/usr/share/yarn/lib/cli.js:22717:27)
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:92:30)
+      at /usr/share/yarn/lib/cli.js:103:13
+      at <anonymous>
 
 npm manifest: 
   {
-    "name": "bold_plugin",
-    "version": "1.0.0",
+    "name": "@hoco_editor/bold_plugin",
+    "version": null,
     "main": "index.js",
-    "license": "MIT"
+    "license": "MIT",
+    "gitHead": "5c13ca191cec01789a12cec4206cfc3d37bab355"
   }
 
 yarn manifest: 
@@ -4712,6 +4720,12 @@ Lockfile:
     dependencies:
       isomorphic-base64 "^1.0.2"
   
+  slate-base64-serializer@^0.2.68:
+    version "0.2.68"
+    resolved "https://registry.yarnpkg.com/slate-base64-serializer/-/slate-base64-serializer-0.2.68.tgz#e340335ebefb9e4ef17ad911868e340c69ce16ec"
+    dependencies:
+      isomorphic-base64 "^1.0.2"
+  
   slate-dev-environment@^0.2.0:
     version "0.2.0"
     resolved "https://registry.yarnpkg.com/slate-dev-environment/-/slate-dev-environment-0.2.0.tgz#c43f4a5e13cccc16ad4c3015c8ad182b6e5b5b3a"
@@ -4733,9 +4747,36 @@ Lockfile:
     version "0.6.6"
     resolved "https://registry.yarnpkg.com/slate-plain-serializer/-/slate-plain-serializer-0.6.6.tgz#c869135c47811d8d8daae1b0badbda99504d579e"
   
+  slate-plain-serializer@^0.6.7:
+    version "0.6.7"
+    resolved "https://registry.yarnpkg.com/slate-plain-serializer/-/slate-plain-serializer-0.6.7.tgz#eb545747ebef08c5a148038c5069bf83bf0efdd1"
+  
   slate-prop-types@^0.4.65:
     version "0.4.65"
     resolved "https://registry.yarnpkg.com/slate-prop-types/-/slate-prop-types-0.4.65.tgz#0b728417246b049ab8a381ccdd5ff8379b0f7d77"
+  
+  slate-prop-types@^0.4.66:
+    version "0.4.66"
+    resolved "https://registry.yarnpkg.com/slate-prop-types/-/slate-prop-types-0.4.66.tgz#0509924ecf8a56c0d374aa8a92a22ef23a39deec"
+  
+  slate-react@^0.18.10:
+    version "0.18.10"
+    resolved "https://registry.yarnpkg.com/slate-react/-/slate-react-0.18.10.tgz#3c38615c51ba16ae8f2d52bde89eb9b79e8a4d10"
+    dependencies:
+      debug "^3.1.0"
+      get-window "^1.1.1"
+      is-window "^1.0.2"
+      lodash "^4.1.1"
+      memoize-one "^4.0.0"
+      prop-types "^15.5.8"
+      react-immutable-proptypes "^2.1.0"
+      selection-is-backward "^1.0.0"
+      slate-base64-serializer "^0.2.68"
+      slate-dev-environment "^0.2.0"
+      slate-dev-warning "^0.0.1"
+      slate-hotkeys "^0.2.5"
+      slate-plain-serializer "^0.6.7"
+      slate-prop-types "^0.4.66"
   
   slate-react@^0.18.9:
     version "0.18.9"
@@ -4759,6 +4800,18 @@ Lockfile:
   slate@^0.41.1:
     version "0.41.1"
     resolved "https://registry.yarnpkg.com/slate/-/slate-0.41.1.tgz#2b10ccb71a23432161bc326fc8e37d14c36b5605"
+    dependencies:
+      debug "^3.1.0"
+      direction "^0.1.5"
+      esrever "^0.2.0"
+      is-plain-object "^2.0.4"
+      lodash "^4.17.4"
+      slate-dev-warning "^0.0.1"
+      type-of "^2.0.1"
+  
+  slate@^0.41.2:
+    version "0.41.2"
+    resolved "https://registry.yarnpkg.com/slate/-/slate-0.41.2.tgz#860806de87cec0d8446f61be423e3c20e3f2db51"
     dependencies:
       debug "^3.1.0"
       direction "^0.1.5"

@@ -1,6 +1,6 @@
 {
   "name": "@hoco_editor/color_plugin",
-  "version": null,
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {

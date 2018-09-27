@@ -3,9 +3,13 @@
   "command": {
     "publish": {
       "ignoreChanges": [
-        "ignored-file",
-        "node_modules",
-        "*.md"
+        "ignored-file", 
+        "*.md",
+        "packages/alignment_plugin",
+        "packages/embed_plugin",
+        "packages/image_plugin",
+        "packages/link_plugin",
+        "packages/list_plugin"
       ]
     },
     "bootstrap": {

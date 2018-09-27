@@ -1,6 +1,6 @@
 {
   "name": "@hoco_editor/italic_plugin",
-  "version": null,
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "gitHead": "5c13ca191cec01789a12cec4206cfc3d37bab355"

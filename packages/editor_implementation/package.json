@@ -1,6 +1,6 @@
 {
   "name": "@hoco_editor/editor_implementation",
-  "version": null,
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {

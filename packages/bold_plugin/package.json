@@ -2,5 +2,6 @@
   "name": "@hoco_editor/bold_plugin",
   "version": null,
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "5c13ca191cec01789a12cec4206cfc3d37bab355"
 }

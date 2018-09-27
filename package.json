@@ -4,20 +4,20 @@
   "description": "",
   "main": "index.js",
   "workspaces": [
-    "packages/*", 
+    "packages/*",
     "demo/*"
   ],
-  "private": true, 
+  "private": true,
   "keywords": [],
   "author": "",
   "license": "ISC",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "test": "lerna run test:ci",  
-    "clean": "lerna clean",  
-    "clean:build": "lerna exec -- rimraf lib",  
-    "release": "lerna publish",  
-    "ls": "lerna ls"  
+    "test": "lerna run test:ci",
+    "clean": "lerna clean",
+    "clean:build": "lerna exec -- rimraf lib",
+    "release": "lerna publish",
+    "ls": "lerna ls"
   },
   "dependencies": {
     "dotenv": "^6.0.0"

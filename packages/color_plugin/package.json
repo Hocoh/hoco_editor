@@ -17,5 +17,6 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1"
-  }
+  },
+  "gitHead": "5c13ca191cec01789a12cec4206cfc3d37bab355"
 }

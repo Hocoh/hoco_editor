@@ -1,13 +1,13 @@
 {
   "name": "@hoco_editor/utils",
-  "version": "1.0.0",
+  "version": null,
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "react": "^16.5.2"
   },
   "scripts": {
-    "prepare":"babel  src --out-dir dist --copy-files"
+    "prepare": "babel  src --out-dir dist --copy-files"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

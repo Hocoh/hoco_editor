@@ -10,6 +10,7 @@
     "prepare": "babel src --out-dir dist --copy-files"
   },
   "dependencies": {
+    "babel-cli": "^6.26.0",
     "classnames": "^2.2.6",
     "react": "^16.5.2",
     "slate": "^0.41.2",
@@ -21,5 +22,5 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1"
   },
-  "gitHead": "b29f11f916aac520aab9e29932f929874029a1b1"
+  "gitHead": "638105f775e597b00566ad3449dbdcc28312d4cf"
 }

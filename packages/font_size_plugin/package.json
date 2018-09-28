@@ -3,9 +3,12 @@
   "version": "1.2.0",
   "main": "index.js",
   "license": "MIT",
-  "gitHead": "b29f11f916aac520aab9e29932f929874029a1b1",
+  "gitHead": "638105f775e597b00566ad3449dbdcc28312d4cf",
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "prepare": "babel src --out-dir dist --copy-files"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

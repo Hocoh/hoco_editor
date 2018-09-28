@@ -1,10 +1,10 @@
 {
   "name": "@hoco_editor/alignment_plugin",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "license": "MIT",
-  "gitHead": "b29f11f916aac520aab9e29932f929874029a1b1", 
-   "publishConfig": {
+  "gitHead": "b29f11f916aac520aab9e29932f929874029a1b1",
+  "publishConfig": {
     "access": "public"
   },
   "devDependencies": {

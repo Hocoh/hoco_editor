@@ -3,6 +3,9 @@
   "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prepare": "babel src --out-dir dist --copy-files"
   },
@@ -22,5 +25,5 @@
     "slate": "^0.41.1",
     "slate-react": "^0.18.9"
   },
-  "gitHead": "e230500237352ec120dcc8b61c397a3b61388a20"
+  "gitHead": "b29f11f916aac520aab9e29932f929874029a1b1"
 }

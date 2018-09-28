@@ -3,5 +3,24 @@
   "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
-  "gitHead": "e230500237352ec120dcc8b61c397a3b61388a20"
+  "gitHead": "b29f11f916aac520aab9e29932f929874029a1b1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "immutable": "^3.8.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "slate": "^0.41.1",
+    "slate-react": "^0.18.9"
+  }
 }

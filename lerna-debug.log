@@ -1,17 +1,17 @@
 0 silly argv { _: [ 'publish' ],
 0 silly argv   composed: 'publish',
 0 silly argv   lernaVersion: '3.4.0',
-0 silly argv   '$0': 'lerna' }
+0 silly argv   '$0': '..\\..\\..\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\lerna\\cli.js' }
 1 notice cli v3.4.0
-2 verbose rootPath /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor
+2 verbose rootPath C:\Users\Utilisateur\Documents\coding\hoco_editor
 3 info Verifying npm credentials
 4 silly npm whoami received {"username":"joondoe"}
 5 silly argv { _: [ 'publish' ],
 5 silly argv   composed: 'publish',
 5 silly argv   lernaVersion: '3.4.0',
-5 silly argv   '$0': 'lerna' }
-6 verbose rootPath /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor
-7 info current version patch
+5 silly argv   '$0': '..\\..\\..\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\lerna\\cli.js' }
+6 verbose rootPath C:\Users\Utilisateur\Documents\coding\hoco_editor
+7 info current version 1.0.0
 8 silly isAnythingCommitted
 9 verbose isAnythingCommitted 1
 10 silly currentBranch
@@ -19,274 +19,362 @@
 12 silly isBehindUpstream
 13 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
 14 silly hasTags
-15 verbose hasTags false
-16 info Looking for changed packages since initial commit.
-17 verbose updated @hoco_editor/alignment_plugin
-18 verbose updated @hoco_editor/bold_plugin
-19 verbose updated @hoco_editor/color_plugin
-20 verbose updated @hoco_editor/editor_implementation
-21 verbose updated @hoco_editor/embed_plugin
-22 verbose updated @hoco_editor/font_family_plugin
-23 verbose updated @hoco_editor/font_size_plugin
-24 verbose updated @hoco_editor/image_plugin
-25 verbose updated @hoco_editor/italic_plugin
-26 verbose updated @hoco_editor/link_plugin
-27 verbose updated @hoco_editor/list_plugin
-28 verbose updated @hoco_editor/toggle_readonly
-29 verbose updated @hoco_editor/ui
-30 verbose updated @hoco_editor/utils
-31 verbose git-describe undefined => "8554df4"
-32 silly git-describe parsed => {"refCount":"1","sha":"8554df4","isDirty":false}
-33 silly batched [ PackageGraphNode {
-33 silly batched     name: '@hoco_editor/alignment_plugin',
-33 silly batched     externalDependencies: Map {},
-33 silly batched     localDependencies: Map {},
-33 silly batched     localDependents: Map {} },
-33 silly batched   PackageGraphNode {
-33 silly batched     name: '@hoco_editor/bold_plugin',
-33 silly batched     externalDependencies: Map {},
-33 silly batched     localDependencies: Map {},
-33 silly batched     localDependents: Map {} },
-33 silly batched   PackageGraphNode {
-33 silly batched     name: '@hoco_editor/color_plugin',
-33 silly batched     externalDependencies:
-33 silly batched      Map {
-33 silly batched        'babel-cli' => [Object],
-33 silly batched        'babel-preset-env' => [Object],
-33 silly batched        'babel-preset-react' => [Object],
-33 silly batched        'babel-preset-stage-0' => [Object],
-33 silly batched        'classnames' => [Object],
-33 silly batched        'react' => [Object],
-33 silly batched        'slate' => [Object],
-33 silly batched        'slate-react' => [Object] },
-33 silly batched     localDependencies: Map {},
-33 silly batched     localDependents: Map {} },
-33 silly batched   PackageGraphNode {
-33 silly batched     name: '@hoco_editor/editor_implementation',
-33 silly batched     externalDependencies:
-33 silly batched      Map {
-33 silly batched        'babel-cli' => [Object],
-33 silly batched        'babel-preset-env' => [Object],
-33 silly batched        'babel-preset-react' => [Object],
-33 silly batched        'babel-preset-stage-0' => [Object],
-33 silly batched        'classnames' => [Object],
-33 silly batched        'enzyme' => [Object],
-33 silly batched        'enzyme-adapter-react-16' => [Object],
-33 silly batched        'immutable' => [Object],
-33 silly batched        'prop-types' => [Object],
-33 silly batched        'react' => [Object],
-33 silly batched        'slate' => [Object],
-33 silly batched        'slate-react' => [Object] },
-33 silly batched     localDependencies: Map {},
-33 silly batched     localDependents: Map {} },
-33 silly batched   PackageGraphNode {
-33 silly batched     name: '@hoco_editor/embed_plugin',
-33 silly batched     externalDependencies: Map {},
-33 silly batched     localDependencies: Map {},
-33 silly batched     localDependents: Map {} },
-33 silly batched   PackageGraphNode {
-33 silly batched     name: '@hoco_editor/font_family_plugin',
-33 silly batched     externalDependencies: Map {},
-33 silly batched     localDependencies: Map {},
-33 silly batched     localDependents: Map {} },
-33 silly batched   PackageGraphNode {
-33 silly batched     name: '@hoco_editor/font_size_plugin',
-33 silly batched     externalDependencies: Map {},
-33 silly batched     localDependencies: Map {},
-33 silly batched     localDependents: Map {} },
-33 silly batched   PackageGraphNode {
-33 silly batched     name: '@hoco_editor/image_plugin',
-33 silly batched     externalDependencies: Map {},
-33 silly batched     localDependencies: Map {},
-33 silly batched     localDependents: Map {} },
-33 silly batched   PackageGraphNode {
-33 silly batched     name: '@hoco_editor/italic_plugin',
-33 silly batched     externalDependencies: Map {},
-33 silly batched     localDependencies: Map {},
-33 silly batched     localDependents: Map {} },
-33 silly batched   PackageGraphNode {
-33 silly batched     name: '@hoco_editor/link_plugin',
-33 silly batched     externalDependencies: Map {},
-33 silly batched     localDependencies: Map {},
-33 silly batched     localDependents: Map {} },
-33 silly batched   PackageGraphNode {
-33 silly batched     name: '@hoco_editor/list_plugin',
-33 silly batched     externalDependencies: Map {},
-33 silly batched     localDependencies: Map {},
-33 silly batched     localDependents: Map {} },
-33 silly batched   PackageGraphNode {
-33 silly batched     name: '@hoco_editor/toggle_readonly',
-33 silly batched     externalDependencies: Map {},
-33 silly batched     localDependencies: Map {},
-33 silly batched     localDependents: Map {} },
-33 silly batched   PackageGraphNode {
-33 silly batched     name: '@hoco_editor/ui',
-33 silly batched     externalDependencies: Map {},
-33 silly batched     localDependencies: Map {},
-33 silly batched     localDependents: Map {} },
-33 silly batched   PackageGraphNode {
-33 silly batched     name: '@hoco_editor/utils',
-33 silly batched     externalDependencies:
-33 silly batched      Map {
-33 silly batched        'babel-cli' => [Object],
-33 silly batched        'babel-preset-env' => [Object],
-33 silly batched        'babel-preset-react' => [Object],
-33 silly batched        'babel-preset-stage-0' => [Object],
-33 silly batched        'react' => [Object] },
-33 silly batched     localDependencies: Map {},
-33 silly batched     localDependents: Map {} } ]
-34 silly gitAdd [ '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/bold_plugin/package.json',
-34 silly gitAdd   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/editor_implementation/package.json',
-34 silly gitAdd   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/color_plugin/package.json',
-34 silly gitAdd   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/alignment_plugin/package.json',
-34 silly gitAdd   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/embed_plugin/package.json',
-34 silly gitAdd   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/font_family_plugin/package.json',
-34 silly gitAdd   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/font_size_plugin/package.json',
-34 silly gitAdd   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/image_plugin/package.json',
-34 silly gitAdd   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/link_plugin/package.json',
-34 silly gitAdd   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/list_plugin/package.json',
-34 silly gitAdd   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/ui/package.json',
-34 silly gitAdd   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/toggle_readonly/package.json',
-34 silly gitAdd   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/italic_plugin/package.json',
-34 silly gitAdd   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/utils/package.json',
-34 silly gitAdd   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/lerna.json' ]
-35 silly gitCommit vnull
-36 verbose git [ 'commit', '-m', 'vnull' ]
-37 silly gitTag vnull
-38 verbose git [ 'tag', 'vnull', '-m', 'vnull' ]
-39 info git Pushing tags...
-40 silly gitPush origin master
-41 silly batched [ PackageGraphNode {
-41 silly batched     name: '@hoco_editor/alignment_plugin',
-41 silly batched     externalDependencies: Map {},
-41 silly batched     localDependencies: Map {},
-41 silly batched     localDependents: Map {} },
-41 silly batched   PackageGraphNode {
-41 silly batched     name: '@hoco_editor/bold_plugin',
-41 silly batched     externalDependencies: Map {},
-41 silly batched     localDependencies: Map {},
-41 silly batched     localDependents: Map {} },
-41 silly batched   PackageGraphNode {
-41 silly batched     name: '@hoco_editor/color_plugin',
-41 silly batched     externalDependencies:
-41 silly batched      Map {
-41 silly batched        'classnames' => [Object],
-41 silly batched        'react' => [Object],
-41 silly batched        'slate' => [Object],
-41 silly batched        'slate-react' => [Object] },
-41 silly batched     localDependencies: Map {},
-41 silly batched     localDependents: Map {} },
-41 silly batched   PackageGraphNode {
-41 silly batched     name: '@hoco_editor/editor_implementation',
-41 silly batched     externalDependencies:
-41 silly batched      Map {
-41 silly batched        'classnames' => [Object],
-41 silly batched        'enzyme' => [Object],
-41 silly batched        'enzyme-adapter-react-16' => [Object],
-41 silly batched        'immutable' => [Object],
-41 silly batched        'prop-types' => [Object],
-41 silly batched        'react' => [Object],
-41 silly batched        'slate' => [Object],
-41 silly batched        'slate-react' => [Object] },
-41 silly batched     localDependencies: Map {},
-41 silly batched     localDependents: Map {} },
-41 silly batched   PackageGraphNode {
-41 silly batched     name: '@hoco_editor/embed_plugin',
-41 silly batched     externalDependencies: Map {},
-41 silly batched     localDependencies: Map {},
-41 silly batched     localDependents: Map {} },
-41 silly batched   PackageGraphNode {
-41 silly batched     name: '@hoco_editor/font_family_plugin',
-41 silly batched     externalDependencies: Map {},
-41 silly batched     localDependencies: Map {},
-41 silly batched     localDependents: Map {} },
-41 silly batched   PackageGraphNode {
-41 silly batched     name: '@hoco_editor/font_size_plugin',
-41 silly batched     externalDependencies: Map {},
-41 silly batched     localDependencies: Map {},
-41 silly batched     localDependents: Map {} },
-41 silly batched   PackageGraphNode {
-41 silly batched     name: '@hoco_editor/image_plugin',
-41 silly batched     externalDependencies: Map {},
-41 silly batched     localDependencies: Map {},
-41 silly batched     localDependents: Map {} },
-41 silly batched   PackageGraphNode {
-41 silly batched     name: '@hoco_editor/italic_plugin',
-41 silly batched     externalDependencies: Map {},
-41 silly batched     localDependencies: Map {},
-41 silly batched     localDependents: Map {} },
-41 silly batched   PackageGraphNode {
-41 silly batched     name: '@hoco_editor/link_plugin',
-41 silly batched     externalDependencies: Map {},
-41 silly batched     localDependencies: Map {},
-41 silly batched     localDependents: Map {} },
-41 silly batched   PackageGraphNode {
-41 silly batched     name: '@hoco_editor/list_plugin',
-41 silly batched     externalDependencies: Map {},
-41 silly batched     localDependencies: Map {},
-41 silly batched     localDependents: Map {} },
-41 silly batched   PackageGraphNode {
-41 silly batched     name: '@hoco_editor/toggle_readonly',
-41 silly batched     externalDependencies: Map {},
-41 silly batched     localDependencies: Map {},
-41 silly batched     localDependents: Map {} },
-41 silly batched   PackageGraphNode {
-41 silly batched     name: '@hoco_editor/ui',
-41 silly batched     externalDependencies: Map {},
-41 silly batched     localDependencies: Map {},
-41 silly batched     localDependents: Map {} },
-41 silly batched   PackageGraphNode {
-41 silly batched     name: '@hoco_editor/utils',
-41 silly batched     externalDependencies: Map { 'react' => [Object] },
-41 silly batched     localDependencies: Map {},
-41 silly batched     localDependents: Map {} } ]
-42 info publish Publishing packages to npm...
-43 silly verifyNpmPackageAccess
-44 warn The logged-in user does not have any previously-published packages, skipping permission checks...
-45 warn ENOLICENSE Packages @hoco_editor/alignment_plugin, @hoco_editor/bold_plugin, @hoco_editor/color_plugin, @hoco_editor/editor_implementation, @hoco_editor/embed_plugin, @hoco_editor/font_family_plugin, @hoco_editor/font_size_plugin, @hoco_editor/image_plugin, @hoco_editor/italic_plugin, @hoco_editor/link_plugin, @hoco_editor/list_plugin, @hoco_editor/toggle_readonly, @hoco_editor/ui, @hoco_editor/utils are missing a license
-46 silly getCurrentSHA
-47 verbose getCurrentSHA 5c13ca191cec01789a12cec4206cfc3d37bab355
-48 silly getExecOpts /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor undefined
-49 silly exec npm options { cwd: '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor',
-49 silly exec   env: { npm_config_json: true },
-49 silly exec   stdio: [ 'ignore', 'pipe', 'inherit' ] }
-50 verbose pack [ '@hoco_editor/alignment_plugin',
-50 verbose pack   '@hoco_editor/bold_plugin',
-50 verbose pack   '@hoco_editor/color_plugin',
-50 verbose pack   '@hoco_editor/editor_implementation',
-50 verbose pack   '@hoco_editor/embed_plugin',
-50 verbose pack   '@hoco_editor/font_family_plugin',
-50 verbose pack   '@hoco_editor/font_size_plugin',
-50 verbose pack   '@hoco_editor/image_plugin',
-50 verbose pack   '@hoco_editor/italic_plugin',
-50 verbose pack   '@hoco_editor/link_plugin',
-50 verbose pack   '@hoco_editor/list_plugin',
-50 verbose pack   '@hoco_editor/toggle_readonly',
-50 verbose pack   '@hoco_editor/ui',
-50 verbose pack   '@hoco_editor/utils' ]
-51 silly exec npm [ 'pack',
-51 silly exec   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/alignment_plugin',
-51 silly exec   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/bold_plugin',
-51 silly exec   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/color_plugin',
-51 silly exec   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/editor_implementation',
-51 silly exec   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/embed_plugin',
-51 silly exec   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/font_family_plugin',
-51 silly exec   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/font_size_plugin',
-51 silly exec   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/image_plugin',
-51 silly exec   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/italic_plugin',
-51 silly exec   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/link_plugin',
-51 silly exec   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/list_plugin',
-51 silly exec   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/toggle_readonly',
-51 silly exec   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/ui',
-51 silly exec   '/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/utils' ]
-52 error Error: Command failed: npm pack /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/alignment_plugin /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/bold_plugin /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/color_plugin /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/editor_implementation /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/embed_plugin /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/font_family_plugin /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/font_size_plugin /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/image_plugin /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/italic_plugin /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/link_plugin /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/list_plugin /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/toggle_readonly /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/ui /home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/packages/utils
-52 error {
-52 error   "error": {
-52 error     "summary": "package.json requires a valid \"version\" field",
-52 error     "detail": ""
-52 error   }
-52 error }
-52 error
-52 error     at makeError (/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/node_modules/execa/index.js:174:9)
-52 error     at Promise.all.then.arr (/home/ulimwengu/Documents/Coding/00_backendDevelopment/slate.js/hoco_editor/node_modules/execa/index.js:278:16)
-52 error     at <anonymous>
+15 verbose hasTags true
+16 silly git-describe.sync "v1.0.0-3-g3ec2d15" => {"lastTagName":"v1.0.0","lastVersion":"v1.0.0","refCount":"3","sha":"3ec2d15","isDirty":false}
+17 info Looking for changed packages since v1.0.0
+18 silly diffSinceIn v1.0.0 packages/alignment_plugin
+19 silly diff packages/alignment_plugin/hoco_editor-alignment_plugin-1.0.0.tgz
+19 silly diff packages/alignment_plugin/package.json
+20 silly diffSinceIn v1.0.0 packages/bold_plugin
+21 silly diff packages/bold_plugin/hoco_editor-bold_plugin-1.0.0.tgz
+21 silly diff packages/bold_plugin/package.json
+22 silly diffSinceIn v1.0.0 packages/color_plugin
+23 silly diff packages/color_plugin/dist/ColorButton.css
+23 silly diff packages/color_plugin/dist/ColorButton.js
+23 silly diff packages/color_plugin/dist/ColorKeyboardShortcut.js
+23 silly diff packages/color_plugin/dist/ColorMark.js
+23 silly diff packages/color_plugin/dist/ColorStateModel.js
+23 silly diff packages/color_plugin/dist/ColorUtils.js
+23 silly diff packages/color_plugin/dist/DraggableColorPicker.css
+23 silly diff packages/color_plugin/dist/DraggableColorPicker.js
+23 silly diff packages/color_plugin/dist/SelectionPickerColorUpdate.js
+23 silly diff packages/color_plugin/dist/index.js
+23 silly diff packages/color_plugin/hoco_editor-color_plugin-1.0.0.tgz
+23 silly diff packages/color_plugin/node_modules/.bin/babel
+23 silly diff packages/color_plugin/node_modules/.bin/babel-doctor
+23 silly diff packages/color_plugin/node_modules/.bin/babel-external-helpers
+23 silly diff packages/color_plugin/node_modules/.bin/babel-node
+23 silly diff packages/color_plugin/node_modules/slate/node_modules/.bin/direction
+23 silly diff packages/color_plugin/node_modules/slate/node_modules/.bin/esrever
+23 silly diff packages/color_plugin/package.json
+24 silly diffSinceIn v1.0.0 packages/editor_implementation
+25 silly diff packages/editor_implementation/dist/EditorContext.js
+25 silly diff packages/editor_implementation/dist/EditorInterface.js
+25 silly diff packages/editor_implementation/dist/EditorToolbar.js
+25 silly diff packages/editor_implementation/dist/index.js
+25 silly diff packages/editor_implementation/dist/initialEditorState.js
+25 silly diff packages/editor_implementation/hoco_editor-editor_implementation-1.0.0.tgz
+25 silly diff packages/editor_implementation/node_modules/.bin/babel
+25 silly diff packages/editor_implementation/node_modules/.bin/babel-doctor
+25 silly diff packages/editor_implementation/node_modules/.bin/babel-external-helpers
+25 silly diff packages/editor_implementation/node_modules/.bin/babel-node
+25 silly diff packages/editor_implementation/package.json
+26 silly diffSinceIn v1.0.0 packages/embed_plugin
+27 silly diff packages/embed_plugin/hoco_editor-embed_plugin-1.0.0.tgz
+27 silly diff packages/embed_plugin/package.json
+28 silly diffSinceIn v1.0.0 packages/font_family_plugin
+29 silly diff packages/font_family_plugin/hoco_editor-font_family_plugin-1.0.0.tgz
+29 silly diff packages/font_family_plugin/package.json
+30 silly diffSinceIn v1.0.0 packages/font_size_plugin
+31 silly diff packages/font_size_plugin/hoco_editor-font_size_plugin-1.0.0.tgz
+31 silly diff packages/font_size_plugin/package.json
+32 silly diffSinceIn v1.0.0 packages/image_plugin
+33 silly diff packages/image_plugin/hoco_editor-image_plugin-1.0.0.tgz
+33 silly diff packages/image_plugin/package.json
+34 silly diffSinceIn v1.0.0 packages/italic_plugin
+35 silly diff packages/italic_plugin/hoco_editor-italic_plugin-1.0.0.tgz
+35 silly diff packages/italic_plugin/package.json
+36 silly diffSinceIn v1.0.0 packages/link_plugin
+37 silly diff packages/link_plugin/hoco_editor-link_plugin-1.0.0.tgz
+37 silly diff packages/link_plugin/package.json
+38 silly diffSinceIn v1.0.0 packages/list_plugin
+39 silly diff packages/list_plugin/hoco_editor-list_plugin-1.0.0.tgz
+39 silly diff packages/list_plugin/package.json
+40 silly diffSinceIn v1.0.0 packages/toggle_readonly
+41 silly diff packages/toggle_readonly/hoco_editor-toggle_readonly-1.0.0.tgz
+41 silly diff packages/toggle_readonly/package.json
+42 silly diffSinceIn v1.0.0 packages/ui
+43 silly diff packages/ui/hoco_editor-ui-1.0.0.tgz
+43 silly diff packages/ui/package.json
+44 silly diffSinceIn v1.0.0 packages/utils
+45 silly diff packages/utils/dist/extends-component.js
+45 silly diff packages/utils/dist/index.js
+45 silly diff packages/utils/dist/keyboard-event.js
+45 silly diff packages/utils/dist/type-check.js
+45 silly diff packages/utils/hoco_editor-utils-1.0.0.tgz
+45 silly diff packages/utils/node_modules/.bin/babel
+45 silly diff packages/utils/node_modules/.bin/babel-doctor
+45 silly diff packages/utils/node_modules/.bin/babel-external-helpers
+45 silly diff packages/utils/node_modules/.bin/babel-node
+45 silly diff packages/utils/package.json
+46 verbose updated @hoco_editor/alignment_plugin
+47 verbose updated @hoco_editor/bold_plugin
+48 verbose updated @hoco_editor/color_plugin
+49 verbose updated @hoco_editor/editor_implementation
+50 verbose updated @hoco_editor/embed_plugin
+51 verbose updated @hoco_editor/font_family_plugin
+52 verbose updated @hoco_editor/font_size_plugin
+53 verbose updated @hoco_editor/image_plugin
+54 verbose updated @hoco_editor/italic_plugin
+55 verbose updated @hoco_editor/link_plugin
+56 verbose updated @hoco_editor/list_plugin
+57 verbose updated @hoco_editor/toggle_readonly
+58 verbose updated @hoco_editor/ui
+59 verbose updated @hoco_editor/utils
+60 verbose git-describe undefined => "v1.0.0-3-g3ec2d15"
+61 silly git-describe parsed => {"lastTagName":"v1.0.0","lastVersion":"v1.0.0","refCount":"3","sha":"3ec2d15","isDirty":false}
+62 silly batched [ PackageGraphNode {
+62 silly batched     name: '@hoco_editor/alignment_plugin',
+62 silly batched     externalDependencies: Map {},
+62 silly batched     localDependencies: Map {},
+62 silly batched     localDependents: Map {} },
+62 silly batched   PackageGraphNode {
+62 silly batched     name: '@hoco_editor/bold_plugin',
+62 silly batched     externalDependencies: Map {},
+62 silly batched     localDependencies: Map {},
+62 silly batched     localDependents: Map {} },
+62 silly batched   PackageGraphNode {
+62 silly batched     name: '@hoco_editor/color_plugin',
+62 silly batched     externalDependencies:
+62 silly batched      Map {
+62 silly batched        'babel-cli' => [Object],
+62 silly batched        'babel-preset-env' => [Object],
+62 silly batched        'babel-preset-react' => [Object],
+62 silly batched        'babel-preset-stage-0' => [Object],
+62 silly batched        'classnames' => [Object],
+62 silly batched        'react' => [Object],
+62 silly batched        'slate' => [Object],
+62 silly batched        'slate-react' => [Object] },
+62 silly batched     localDependencies: Map {},
+62 silly batched     localDependents: Map {} },
+62 silly batched   PackageGraphNode {
+62 silly batched     name: '@hoco_editor/editor_implementation',
+62 silly batched     externalDependencies:
+62 silly batched      Map {
+62 silly batched        'babel-cli' => [Object],
+62 silly batched        'babel-preset-env' => [Object],
+62 silly batched        'babel-preset-react' => [Object],
+62 silly batched        'babel-preset-stage-0' => [Object],
+62 silly batched        'classnames' => [Object],
+62 silly batched        'enzyme' => [Object],
+62 silly batched        'enzyme-adapter-react-16' => [Object],
+62 silly batched        'immutable' => [Object],
+62 silly batched        'prop-types' => [Object],
+62 silly batched        'react' => [Object],
+62 silly batched        'slate' => [Object],
+62 silly batched        'slate-react' => [Object] },
+62 silly batched     localDependencies: Map {},
+62 silly batched     localDependents: Map {} },
+62 silly batched   PackageGraphNode {
+62 silly batched     name: '@hoco_editor/embed_plugin',
+62 silly batched     externalDependencies: Map {},
+62 silly batched     localDependencies: Map {},
+62 silly batched     localDependents: Map {} },
+62 silly batched   PackageGraphNode {
+62 silly batched     name: '@hoco_editor/font_family_plugin',
+62 silly batched     externalDependencies: Map {},
+62 silly batched     localDependencies: Map {},
+62 silly batched     localDependents: Map {} },
+62 silly batched   PackageGraphNode {
+62 silly batched     name: '@hoco_editor/font_size_plugin',
+62 silly batched     externalDependencies: Map {},
+62 silly batched     localDependencies: Map {},
+62 silly batched     localDependents: Map {} },
+62 silly batched   PackageGraphNode {
+62 silly batched     name: '@hoco_editor/image_plugin',
+62 silly batched     externalDependencies: Map {},
+62 silly batched     localDependencies: Map {},
+62 silly batched     localDependents: Map {} },
+62 silly batched   PackageGraphNode {
+62 silly batched     name: '@hoco_editor/italic_plugin',
+62 silly batched     externalDependencies: Map {},
+62 silly batched     localDependencies: Map {},
+62 silly batched     localDependents: Map {} },
+62 silly batched   PackageGraphNode {
+62 silly batched     name: '@hoco_editor/link_plugin',
+62 silly batched     externalDependencies: Map {},
+62 silly batched     localDependencies: Map {},
+62 silly batched     localDependents: Map {} },
+62 silly batched   PackageGraphNode {
+62 silly batched     name: '@hoco_editor/list_plugin',
+62 silly batched     externalDependencies: Map {},
+62 silly batched     localDependencies: Map {},
+62 silly batched     localDependents: Map {} },
+62 silly batched   PackageGraphNode {
+62 silly batched     name: '@hoco_editor/toggle_readonly',
+62 silly batched     externalDependencies: Map {},
+62 silly batched     localDependencies: Map {},
+62 silly batched     localDependents: Map {} },
+62 silly batched   PackageGraphNode {
+62 silly batched     name: '@hoco_editor/ui',
+62 silly batched     externalDependencies: Map {},
+62 silly batched     localDependencies: Map {},
+62 silly batched     localDependents: Map {} },
+62 silly batched   PackageGraphNode {
+62 silly batched     name: '@hoco_editor/utils',
+62 silly batched     externalDependencies:
+62 silly batched      Map {
+62 silly batched        'babel-cli' => [Object],
+62 silly batched        'babel-preset-env' => [Object],
+62 silly batched        'babel-preset-react' => [Object],
+62 silly batched        'babel-preset-stage-0' => [Object],
+62 silly batched        'react' => [Object] },
+62 silly batched     localDependencies: Map {},
+62 silly batched     localDependents: Map {} } ]
+63 silly gitAdd [ 'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\font_size_plugin\\package.json',
+63 silly gitAdd   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\toggle_readonly\\package.json',
+63 silly gitAdd   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\list_plugin\\package.json',
+63 silly gitAdd   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\alignment_plugin\\package.json',
+63 silly gitAdd   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\image_plugin\\package.json',
+63 silly gitAdd   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\color_plugin\\package.json',
+63 silly gitAdd   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\bold_plugin\\package.json',
+63 silly gitAdd   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\ui\\package.json',
+63 silly gitAdd   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\font_family_plugin\\package.json',
+63 silly gitAdd   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\link_plugin\\package.json',
+63 silly gitAdd   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\utils\\package.json',
+63 silly gitAdd   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\italic_plugin\\package.json',
+63 silly gitAdd   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\embed_plugin\\package.json',
+63 silly gitAdd   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\editor_implementation\\package.json',
+63 silly gitAdd   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\lerna.json' ]
+64 silly gitCommit v1.1.0
+65 verbose git [ 'commit', '-m', 'v1.1.0' ]
+66 silly gitTag v1.1.0
+67 verbose git [ 'tag', 'v1.1.0', '-m', 'v1.1.0' ]
+68 info git Pushing tags...
+69 silly gitPush origin master
+70 silly batched [ PackageGraphNode {
+70 silly batched     name: '@hoco_editor/alignment_plugin',
+70 silly batched     externalDependencies: Map {},
+70 silly batched     localDependencies: Map {},
+70 silly batched     localDependents: Map {} },
+70 silly batched   PackageGraphNode {
+70 silly batched     name: '@hoco_editor/bold_plugin',
+70 silly batched     externalDependencies: Map {},
+70 silly batched     localDependencies: Map {},
+70 silly batched     localDependents: Map {} },
+70 silly batched   PackageGraphNode {
+70 silly batched     name: '@hoco_editor/color_plugin',
+70 silly batched     externalDependencies:
+70 silly batched      Map {
+70 silly batched        'classnames' => [Object],
+70 silly batched        'react' => [Object],
+70 silly batched        'slate' => [Object],
+70 silly batched        'slate-react' => [Object] },
+70 silly batched     localDependencies: Map {},
+70 silly batched     localDependents: Map {} },
+70 silly batched   PackageGraphNode {
+70 silly batched     name: '@hoco_editor/editor_implementation',
+70 silly batched     externalDependencies:
+70 silly batched      Map {
+70 silly batched        'classnames' => [Object],
+70 silly batched        'enzyme' => [Object],
+70 silly batched        'enzyme-adapter-react-16' => [Object],
+70 silly batched        'immutable' => [Object],
+70 silly batched        'prop-types' => [Object],
+70 silly batched        'react' => [Object],
+70 silly batched        'slate' => [Object],
+70 silly batched        'slate-react' => [Object] },
+70 silly batched     localDependencies: Map {},
+70 silly batched     localDependents: Map {} },
+70 silly batched   PackageGraphNode {
+70 silly batched     name: '@hoco_editor/embed_plugin',
+70 silly batched     externalDependencies: Map {},
+70 silly batched     localDependencies: Map {},
+70 silly batched     localDependents: Map {} },
+70 silly batched   PackageGraphNode {
+70 silly batched     name: '@hoco_editor/font_family_plugin',
+70 silly batched     externalDependencies: Map {},
+70 silly batched     localDependencies: Map {},
+70 silly batched     localDependents: Map {} },
+70 silly batched   PackageGraphNode {
+70 silly batched     name: '@hoco_editor/font_size_plugin',
+70 silly batched     externalDependencies: Map {},
+70 silly batched     localDependencies: Map {},
+70 silly batched     localDependents: Map {} },
+70 silly batched   PackageGraphNode {
+70 silly batched     name: '@hoco_editor/image_plugin',
+70 silly batched     externalDependencies: Map {},
+70 silly batched     localDependencies: Map {},
+70 silly batched     localDependents: Map {} },
+70 silly batched   PackageGraphNode {
+70 silly batched     name: '@hoco_editor/italic_plugin',
+70 silly batched     externalDependencies: Map {},
+70 silly batched     localDependencies: Map {},
+70 silly batched     localDependents: Map {} },
+70 silly batched   PackageGraphNode {
+70 silly batched     name: '@hoco_editor/link_plugin',
+70 silly batched     externalDependencies: Map {},
+70 silly batched     localDependencies: Map {},
+70 silly batched     localDependents: Map {} },
+70 silly batched   PackageGraphNode {
+70 silly batched     name: '@hoco_editor/list_plugin',
+70 silly batched     externalDependencies: Map {},
+70 silly batched     localDependencies: Map {},
+70 silly batched     localDependents: Map {} },
+70 silly batched   PackageGraphNode {
+70 silly batched     name: '@hoco_editor/toggle_readonly',
+70 silly batched     externalDependencies: Map {},
+70 silly batched     localDependencies: Map {},
+70 silly batched     localDependents: Map {} },
+70 silly batched   PackageGraphNode {
+70 silly batched     name: '@hoco_editor/ui',
+70 silly batched     externalDependencies: Map {},
+70 silly batched     localDependencies: Map {},
+70 silly batched     localDependents: Map {} },
+70 silly batched   PackageGraphNode {
+70 silly batched     name: '@hoco_editor/utils',
+70 silly batched     externalDependencies: Map { 'react' => [Object] },
+70 silly batched     localDependencies: Map {},
+70 silly batched     localDependents: Map {} } ]
+71 info publish Publishing packages to npm...
+72 silly verifyNpmPackageAccess
+73 warn ENOLICENSE Packages @hoco_editor/alignment_plugin, @hoco_editor/bold_plugin, @hoco_editor/color_plugin, @hoco_editor/editor_implementation, @hoco_editor/embed_plugin, @hoco_editor/font_family_plugin, @hoco_editor/font_size_plugin, @hoco_editor/image_plugin, @hoco_editor/italic_plugin, @hoco_editor/link_plugin, @hoco_editor/list_plugin, @hoco_editor/toggle_readonly, @hoco_editor/ui, @hoco_editor/utils are missing a license
+74 silly getCurrentSHA
+75 verbose getCurrentSHA b29f11f916aac520aab9e29932f929874029a1b1
+76 silly getExecOpts C:\Users\Utilisateur\Documents\coding\hoco_editor undefined
+77 silly exec npm options { cwd: 'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor',
+77 silly exec   env: { npm_config_json: true },
+77 silly exec   stdio: [ 'ignore', 'pipe', 'inherit' ] }
+78 verbose pack [ '@hoco_editor/alignment_plugin',
+78 verbose pack   '@hoco_editor/bold_plugin',
+78 verbose pack   '@hoco_editor/color_plugin',
+78 verbose pack   '@hoco_editor/editor_implementation',
+78 verbose pack   '@hoco_editor/embed_plugin',
+78 verbose pack   '@hoco_editor/font_family_plugin',
+78 verbose pack   '@hoco_editor/font_size_plugin',
+78 verbose pack   '@hoco_editor/image_plugin',
+78 verbose pack   '@hoco_editor/italic_plugin',
+78 verbose pack   '@hoco_editor/link_plugin',
+78 verbose pack   '@hoco_editor/list_plugin',
+78 verbose pack   '@hoco_editor/toggle_readonly',
+78 verbose pack   '@hoco_editor/ui',
+78 verbose pack   '@hoco_editor/utils' ]
+79 silly exec npm [ 'pack',
+79 silly exec   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\alignment_plugin',
+79 silly exec   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\bold_plugin',
+79 silly exec   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\color_plugin',
+79 silly exec   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\editor_implementation',
+79 silly exec   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\embed_plugin',
+79 silly exec   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\font_family_plugin',
+79 silly exec   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\font_size_plugin',
+79 silly exec   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\image_plugin',
+79 silly exec   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\italic_plugin',
+79 silly exec   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\link_plugin',
+79 silly exec   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\list_plugin',
+79 silly exec   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\toggle_readonly',
+79 silly exec   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\ui',
+79 silly exec   'C:\\Users\\Utilisateur\\Documents\\coding\\hoco_editor\\packages\\utils' ]
+80 error Error: Command failed: npm pack C:\Users\Utilisateur\Documents\coding\hoco_editor\packages\alignment_plugin C:\Users\Utilisateur\Documents\coding\hoco_editor\packages\bold_plugin C:\Users\Utilisateur\Documents\coding\hoco_editor\packages\color_plugin C:\Users\Utilisateur\Documents\coding\hoco_editor\packages\editor_implementation C:\Users\Utilisateur\Documents\coding\hoco_editor\packages\embed_plugin C:\Users\Utilisateur\Documents\coding\hoco_editor\packages\font_family_plugin C:\Users\Utilisateur\Documents\coding\hoco_editor\packages\font_size_plugin C:\Users\Utilisateur\Documents\coding\hoco_editor\packages\image_plugin C:\Users\Utilisateur\Documents\coding\hoco_editor\packages\italic_plugin C:\Users\Utilisateur\Documents\coding\hoco_editor\packages\link_plugin C:\Users\Utilisateur\Documents\coding\hoco_editor\packages\list_plugin C:\Users\Utilisateur\Documents\coding\hoco_editor\packages\toggle_readonly C:\Users\Utilisateur\Documents\coding\hoco_editor\packages\ui C:\Users\Utilisateur\Documents\coding\hoco_editor\packages\utils
+80 error
+80 error > @hoco_editor/color_plugin@1.1.0 prepare C:/Users/Utilisateur/Documents/coding/hoco_editor/packages/color_plugin
+80 error > babel src --out-dir dist --copy-files
+80 error
+80 error
+80 error > @hoco_editor/editor_implementation@1.1.0 prepare C:/Users/Utilisateur/Documents/coding/hoco_editor/packages/editor_implementation
+80 error > babel src --out-dir dist --copy-files
+80 error
+80 error {
+80 error   "error": {
+80 error     "code": "ELIFECYCLE",
+80 error     "summary": "@hoco_editor/color_plugin@1.1.0 prepare: `babel src --out-dir dist --copy-files`\nExit status 1",
+80 error     "detail": "\nFailed at the @hoco_editor/color_plugin@1.1.0 prepare script.\nThis is probably not a problem with npm. There is likely additional logging output above."
+80 error   }
+80 error }
+80 error
+80 error > @hoco_editor/utils@1.1.0 prepare C:/Users/Utilisateur/Documents/coding/hoco_editor/packages/utils
+80 error > babel  src --out-dir dist --copy-files
+80 error
+80 error
+80 error     at makeError (C:\Users\Utilisateur\AppData\Local\Yarn\Data\global\node_modules\execa\index.js:174:9)
+80 error     at Promise.all.then.arr (C:\Users\Utilisateur\AppData\Local\Yarn\Data\global\node_modules\execa\index.js:278:16)
+80 error     at <anonymous>

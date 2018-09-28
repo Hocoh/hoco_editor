@@ -1,7 +1,7 @@
 {
   "name": "@hoco_editor/bold_plugin",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "main": "index.js",
   "license": "MIT",
-  "gitHead": "5c13ca191cec01789a12cec4206cfc3d37bab355"
+  "gitHead": "e230500237352ec120dcc8b61c397a3b61388a20"
 }

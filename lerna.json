@@ -23,6 +23,6 @@
   "useWorkspaces": true,
   "packages": [
     "packages/*",
-    "demo/*"
+    "demo"
   ]
 }

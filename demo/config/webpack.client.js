@@ -24,6 +24,10 @@ const JQueryPluginConfig = new webpack.ProvidePlugin({
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 
+// hot middleware settings 
+
+const HMR_Entry = "webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000"
+
 // bundle weight map
 
 // const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
@@ -35,12 +39,13 @@ const NODE_ENV_SETTING = new webpack.DefinePlugin({
 })
 
 
-//  ___________
+
+//  ____   ____      
 // |___     ___|
 //    |  |  |
 //    |  |  |
 //  __|  |  |__
-// |___________|
+// |____   ____|     
 
 
 // CONFIG 
@@ -49,7 +54,7 @@ module.exports= {
 
   // mount_points
   context: path.resolve(__dirname, ".."),
-  entry:"./src",
+  entry:[HMR_Entry, "./src"],
   output:{ 	
 		path: path.resolve(__dirname, "..", "./dist"), 
 		filename:"main.js"
@@ -58,7 +63,7 @@ module.exports= {
   // environment
   mode: "production", 
   target: "web",
-  watch: true,
+  // watch: true,
   watchOptions: { 
     aggregateTimeout: 500,    
   },
@@ -68,16 +73,28 @@ module.exports= {
 	module: { 
 		rules: [ 
 
+      // script 
+
+      {
+        test: /\.js$/,
+        exclude: path.resolve(__dirname, "node_modules"),
+        use: {
+          loader: "babel-loader"
+        } 
+      },
+
       // styles 
 
 			{
-				test: /\.css$/,
+        test: /\.css$/,
+        exclude: path.resolve(__dirname, "node_modules"),
 				use:["style-loader","css-loader"]
       },
       
       // images
       {
         test: /\.(gif|png|jpe?g|svg)$/i,
+        exclude: path.resolve(__dirname, "node_modules"),
         use: [
           'file-loader',
           {
@@ -113,6 +130,9 @@ module.exports= {
     HtmlWebpackPluginConfig,  
     JQueryPluginConfig,
     // BundleAnalyzerPlugin,
+    new webpack.optimize.OccurrenceOrderPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoEmitOnErrorsPlugin(),
     NODE_ENV_SETTING
   ],
 

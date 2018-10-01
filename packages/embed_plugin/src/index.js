@@ -14,7 +14,7 @@ const EmbedPlugin = ()=> ({
     }
 })
 
-export{ 
+export  { 
     EmbedPlugin,
     EmbedNode,
     EmbedKeyboardShortcut,

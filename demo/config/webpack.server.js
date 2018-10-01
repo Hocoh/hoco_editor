@@ -20,7 +20,7 @@ module.exports= {
     mode:"production",
     target:"node",
     externals: [nodeExternals()],
-    watch: true,
+    // watch: true,
     watchOptions: { 
         aggregateTimeout: 500,
     },

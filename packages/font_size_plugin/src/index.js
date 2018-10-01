@@ -28,7 +28,7 @@ const FontSizePlugin = options => {
     }
 }
 
-export { 
+export  { 
     FontSizePlugin,
     FontSizeMark,
     FontSizeKeyboardShortcut,

@@ -1,6 +1,6 @@
 import React from "react"
 
-export const cloneElement = (children, props) => { 
+ const cloneElement = (children, props) => { 
     if (!Array.isArray(children)){ 
         children = [children] 
     }
@@ -15,3 +15,5 @@ export const cloneElement = (children, props) => {
         return result; 
     }, [])
 }
+
+export default cloneElement

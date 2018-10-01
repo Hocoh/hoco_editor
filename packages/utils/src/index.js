@@ -1,3 +1,3 @@
-export * as keyboardEvent from "./keyboard-event"
-export * as extendsComponent from "./extends-component"
-export * as typecheck from "./type-check"
+export {default as keyboardEvent} from "./keyboard-event"
+export {default as extendsComponent }from "./extends-component"
+export{ default as typecheck} from "./type-check"

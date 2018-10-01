@@ -22,7 +22,7 @@ const ColorPlugin = () => ({
     }
 })
 
-export{ 
+export { 
     ColorPlugin,
     ColorMark,
     ColorKeyboardShortcut,

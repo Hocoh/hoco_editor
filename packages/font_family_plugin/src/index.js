@@ -5,7 +5,7 @@ import FontFamilyMark from "./FontFamilyMark"
 import * as FontFamilyUtils from "./FontFamilyUtils"
 import FontFamilyDropdown from "./FontFamilyDropdown"
 
-export { 
+export  { 
     FontFamilyMark, 
     FontFamilyUtils, 
     FontFamilyDropdown, 

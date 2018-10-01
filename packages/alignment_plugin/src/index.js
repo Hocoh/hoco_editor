@@ -21,7 +21,7 @@ const AlignmentPlugin = () =>({
     }
 })
 
-export { 
+export  { 
     AlignmentPlugin,
     AlignmentNode,
     AlignmentKeyboardShortcut,

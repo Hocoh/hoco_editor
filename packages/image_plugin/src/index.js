@@ -15,7 +15,7 @@ const ImagePlugin = () => ({
     }
 })
 
-export{ 
+export { 
     ImagePlugin,
     ImageNode,
     ImageLinkNode,

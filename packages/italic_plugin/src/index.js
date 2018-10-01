@@ -14,7 +14,7 @@ const ItalicPlugin= () => ({
     }
 })
 
-export{ 
+export { 
     ItalicPlugin,
     ItalicMark, 
     ItalicKeyboardShortcut,

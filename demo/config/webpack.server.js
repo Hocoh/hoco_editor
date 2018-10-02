@@ -1,8 +1,8 @@
 const webpack = require("webpack");
 const path = require("path")
 
-const nodeExternals = require("webpack-node-externals")
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const nodeExternals = require("webpack-node-externals");
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports= { 
 
@@ -32,5 +32,15 @@ module.exports= {
         new webpack.DefinePlugin({ 
             "process.env.BROWSER": false
         })
-    ]
+    ],
+
+    optimization:{ 
+        runtimeChunk:{ 
+          name:"runtime"
+        },
+        
+          minimizer: [new TerserPlugin()]
+        
+      }
+      
 }

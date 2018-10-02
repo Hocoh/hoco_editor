@@ -4,7 +4,7 @@ import BoldMark from "./BoldMark"
 
 // Keyboard_shortcut
 
-import BoldKeyboardShortcut from "./BoldKeyboardShotcut"
+import BoldKeyboardShortcut from "./BoldKeyboardShortcut"
 
 // utils _ ui  
 

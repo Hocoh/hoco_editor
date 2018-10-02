@@ -1,16 +1,22 @@
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
-var initialeEditorState = {
-    document: {
-        nodes: [{
-            kind: "block",
-            type: "paragraph",
-            nodes: [{ kind: "text", leaves: [{ text: "initial text loaded" }] }]
+exports.default = void 0;
+var initialEditorState = {
+  document: {
+    nodes: [{
+      object: "block",
+      type: "paragraph",
+      nodes: [{
+        object: "text",
+        leaves: [{
+          text: "initial text loaded"
         }]
-    }
+      }]
+    }]
+  }
 };
-
-exports.default = initialEditorState;
+var _default = initialEditorState;
+exports.default = _default;

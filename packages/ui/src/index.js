@@ -1,4 +1,4 @@
 export * from "./button"
 export * from "./modal"
-export * from "./tolltip" 
+export * from "./tooltip" 
 

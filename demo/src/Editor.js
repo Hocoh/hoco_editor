@@ -5,24 +5,23 @@ import {ItalicPlugin, ItalicButton} from "@hoco_editor/italic_plugin"
 import {FontFamilyPlugin, FontFamilyDropdown} from "@hoco_editor/font_family_plugin"
 import { FontSizePlugin, FontSizeInput} from "@hoco_editor/font_size_plugin"
 
-import "./Editor.css"
+// import "./Editor.css"
 
 const fontSizePluginOptions= {initialFontSize: 12}
 // const colorPluginOptions= new ColorStateModel().rgba({ r: 100, g: 100, b: 100, a: 1 }).gen()
 
 const plugins= [ 
-    BoldPlugin,
-    ItalicPlugin,
-    FontFamilyPlugin,
-    FontSizePlugin
+    BoldPlugin(),
+    ItalicPlugin(),
+    // FontFamilyPlugin(),
+    FontSizePlugin(fontSizePluginOptions)
 ]
 
-const Editor= ({ title, version, }) => { 
-    return( 
-        <div>
+const Editor= () => { 
+    return(<div>
             <p> Hoco_editor</p>
 
-            <Editor plugins={plugins}> 
+            <EditorContext plugins={plugins}> 
                 <EditorToolbar>
                 <BoldButton  />
                 <ItalicButton />
@@ -33,7 +32,7 @@ const Editor= ({ title, version, }) => {
                 /> 
 
                 <EditorInterface/>
-            </Editor>
+            </EditorContext>
         </div>
     )
 }

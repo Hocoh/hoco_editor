@@ -1,7 +1,7 @@
 {
   "name": "@hoco_editor/image_plugin",
   "version": "1.2.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "gitHead": "638105f775e597b00566ad3449dbdcc28312d4cf",
   "publishConfig": {

@@ -4,13 +4,13 @@ import React, {Component} from "react"
 import classnames from "classnames"
 import {extendsComponent} from "@hoco_editor/utils"
 
-// import {Value} from "slate" 
+import {Value} from "slate" 
 import initialEditorState from "./initialEditorState"
 
 class HocoEditor extends Component { 
 
     state= {
-            value: this.props.initialState || initialEditorState,
+            value: Value.fromJSON(this.props.initialState || initialEditorState),
             readOnly: false, 
             uid : new Date().getUTCMilliseconds()
     }
@@ -48,7 +48,7 @@ class HocoEditor extends Component {
 
         return (
             <div className={classnames("editor--root", className)} style={style}> 
-                {extendsComponent.cloneElement(children, childProps)}
+                {extendsComponent(children, childProps)}
             </div>
         )
     }

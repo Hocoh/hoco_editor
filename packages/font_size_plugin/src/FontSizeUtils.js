@@ -29,7 +29,7 @@ export const fontSizeStrategy = ({ change, changeState, fontSize }) => {
             changeState({fontSize}) 
             return change
             .addMark(createMark(fontSize))
-        } else console.info("font-size: selecrtion collapsed")
+        } else console.info("font-size: selection collapsed")
     }
     return change 
 }

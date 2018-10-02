@@ -12,12 +12,12 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "dev": "yarn install && node -r dotenv/config lerna exec yarn start --parallel",
+    "dev": "yarn install && node -r dotenv/config lerna exec  -- yarn start --parallel",
     "start": "yarn install && lerna exec yarn start --parallel",
     "boot": "lerna bootstrap",
-    "test": "lerna exec yarn  test",
+    "test": "lerna exec  -- yarn  test",
     "prepublish": "rimraf packages/**/dist",
-    "prepare": "lerna exec yarn prepare",
+    "prepare": "lerna exec  -- yarn prepare",
     "release:alpha": "lerna publish --canary=alpha",
     "version-bump": "lerna publish --conventional-commits --skip-npm"
   },

@@ -21,9 +21,9 @@ var _ColorButton = require("./ColorButton");
 
 var _ColorButton2 = _interopRequireDefault(_ColorButton);
 
-var _ColorSlateModel = require("./ColorSlateModel");
+var _ColorStateModel = require("./ColorStateModel");
 
-var _ColorSlateModel2 = _interopRequireDefault(_ColorSlateModel);
+var _ColorStateModel2 = _interopRequireDefault(_ColorStateModel);
 
 var _SelectionPickerColorUpdate = require("./SelectionPickerColorUpdate");
 
@@ -55,4 +55,4 @@ exports.ColorMark = _ColorMark2.default;
 exports.ColorKeyboardShortcut = _ColorKeyboardShortcut2.default;
 exports.ColorUtils = ColorUtils;
 exports.ColorButton = _ColorButton2.default;
-exports.ColorStateModel = _ColorSlateModel2.default;
+exports.ColorStateModel = _ColorStateModel2.default;

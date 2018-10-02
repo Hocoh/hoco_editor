@@ -4,6 +4,6 @@ import {extendsComponent} from "@hoco_editor/utils"
 
 export default ({ children, style, className, ...props}) => ( 
     <div className={classnames("editor--toolbar", className)} style={style} >
-        {extendsComponent.cloneElement(children,props)}
+        {extendsComponent(children,props)}
     </div>
 )

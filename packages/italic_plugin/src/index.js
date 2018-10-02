@@ -2,7 +2,7 @@
 import ItalicMark from "./ItalicMark"
 
 // keyboard 
-import ItalicKeyboardShortcut from "./italicKeyboardShortcut"
+import ItalicKeyboardShortcut from "./ItalicKeyboardShortcut"
 
 // utils
 import * as ItalicUtils from "./ItalicUtils"

@@ -14,7 +14,7 @@ const FontSizeInput= ({
     initialFontSize,
     contextState: {fontSize: fontSizeState}
 }) =>{ 
-    if(!fontSizeState) changeState({ value, fontSize: intialFontSize})
+    if(!fontSizeState) changeState({ value, fontSize: initialFontSize})
 
     return( 
         <input

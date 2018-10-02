@@ -12,16 +12,9 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 }
 })
 
-// jquery setting 
-
-const JQueryPluginConfig = new webpack.ProvidePlugin({
-  $: "jquery",
-  jQuery: "jquery"
-})
-
 // minify text files 
 
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 
 
 // hot middleware settings 
@@ -35,7 +28,7 @@ const HMR_Entry = "webpack-hot-middleware/client?path=/__webpack_hmr&timeout=200
 // set NODE_ENV to production
 
 const NODE_ENV_SETTING = new webpack.DefinePlugin({
-  'process.env.NODE_ENV': "production"
+  'process.env.NODE_ENV': "'development'"
 })
 
 
@@ -60,15 +53,15 @@ module.exports= {
 		filename:"main.js"
   }, 
 
-  // environment
-  mode: "production", 
+  // environment  
+  mode:"development",
   target: "web",
   // watch: true,
-  watchOptions: { 
-    aggregateTimeout: 500,    
-  },
-  devtool: false,
+  // watchOptions: { 
+  //   aggregateTimeout: 500,    
+  // },
 
+  devtool: "eval-source-map",
   // modules process
 	module: { 
 		rules: [ 
@@ -128,11 +121,10 @@ module.exports= {
   // additional process  
   plugins: [
     HtmlWebpackPluginConfig,  
-    JQueryPluginConfig,
     // BundleAnalyzerPlugin,
     new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin(),
+    new webpack.NoEmitOnErrorsPlugin(),  
     NODE_ENV_SETTING
   ],
 
@@ -141,7 +133,7 @@ module.exports= {
       name:"runtime"
     },
     
-      minimizer: [new UglifyJsPlugin()]
+      minimizer: [new TerserPlugin()]
     
   }
   

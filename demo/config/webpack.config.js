@@ -1,4 +1,4 @@
 const clientProcess = require("./webpack.client.js")
-const serverProcess = require("./webpack.server.js") ;
+// const serverProcess = require("./webpack.server.js") ;
 
-module.exports= [clientProcess, serverProcess]
+module.exports= [clientProcess]

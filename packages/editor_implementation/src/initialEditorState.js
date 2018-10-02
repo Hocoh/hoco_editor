@@ -1,11 +1,11 @@
-const initialeEditorState = { 
+const initialEditorState = { 
     document: { 
         nodes: [ 
             { 
-                kind: "block", 
+                object: "block", 
                 type: "paragraph",
                 nodes: [ 
-                    { kind: "text", leaves: [{text: "initial text loaded"}]}
+                    { object: "text", leaves: [{text: "initial text loaded"}]}
                 ]
             }
         ]

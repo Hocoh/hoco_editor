@@ -1,19 +1,20 @@
-import React from "react"
+import React from 'react'
 
- const cloneElement = (children, props) => { 
-    if (!Array.isArray(children)){ 
-        children = [children] 
+const cloneElement = (children, props) => {
+  if (children && !children.length) {
+    children = [children, ]
+  }
+
+  return children && children.reduce((result, child, index) => {
+    if(child) {
+      result.push(React.cloneElement(child, {
+        ...props,
+        key: index
+      }))
     }
 
-    return children && children.reduce((result, child, index) => { 
-        if(child) { 
-            result.push(React.cloneElement(child, { 
-                ...props, 
-                key: index 
-            }))
-        }
-        return result; 
-    }, [])
+    return result;
+  }, [])
 }
 
 export default cloneElement

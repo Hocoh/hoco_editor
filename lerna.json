@@ -9,7 +9,8 @@
         "packages/embed_plugin",
         "packages/image_plugin",
         "packages/link_plugin",
-        "packages/list_plugin"
+        "packages/list_plugin",
+        "packages/toggle_readonly"
       ]
     },
     "bootstrap": {

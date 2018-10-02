@@ -3,32 +3,29 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-
-var _EditorContext = require("./EditorContext");
-
 Object.defineProperty(exports, "EditorContext", {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_EditorContext).default;
+    return _EditorContext.default;
   }
 });
-
-var _EditorInterface = require("./EditorInterface");
-
 Object.defineProperty(exports, "EditorInterface", {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_EditorInterface).default;
+    return _EditorInterface.default;
   }
 });
-
-var _EditorToolbar = require("./EditorToolbar");
-
 Object.defineProperty(exports, "EditorToolbar", {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_EditorToolbar).default;
+    return _EditorToolbar.default;
   }
 });
+
+var _EditorContext = _interopRequireDefault(require("./EditorContext"));
+
+var _EditorInterface = _interopRequireDefault(require("./EditorInterface"));
+
+var _EditorToolbar = _interopRequireDefault(require("./EditorToolbar"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

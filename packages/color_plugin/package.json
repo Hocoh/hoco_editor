@@ -1,7 +1,7 @@
 {
   "name": "@hoco_editor/color_plugin",
   "version": "1.2.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -13,6 +13,8 @@
     "babel-cli": "^6.26.0",
     "classnames": "^2.2.6",
     "react": "^16.5.2",
+    "react-color": "^2.14.1",
+    "react-draggable": "^3.0.5",
     "slate": "^0.41.2",
     "slate-react": "^0.18.10"
   },

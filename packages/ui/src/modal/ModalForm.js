@@ -1,9 +1,9 @@
 import React from "react"
 import classnames from "classnames"
 
-if(require("exenv").canUseDOM) requestAnimationFrame("./ModalForm.css")
+if(require("exenv").canUseDOM) require("./ModalForm.css")
 
-const ModalFORM = ({children, className, ...props}) => ( 
+const ModalForm = ({children, className, ...props}) => ( 
   <form
     //classname
   > 
@@ -11,11 +11,11 @@ const ModalFORM = ({children, className, ...props}) => (
   </form>
 )
 
-ModalFORM.Group= ({children, className, ...props }) => ( 
+ModalForm.Group= ({children, className, ...props }) => ( 
   <div
    //  className
   >
-
+   {children}
   </div>
 )
 
@@ -23,7 +23,7 @@ ModalForm.LabelHelper = ({children, className,...props}) =>(
   <span
     // className
   >
-
+  {children}
   </span>
 )
 

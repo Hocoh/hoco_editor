@@ -3,9 +3,9 @@ import FontAwesome from "react-fontawesome"
 import classnames from "classnames"
 import {Button} from "@hoco_editor/ui"
 
-import {italicMarkStrategy, hasMark} from "./italicUtils"
+import {italicMarkStrategy, hasMark} from "@hoco_editor/italic_plugin/src/ItalicUtils"
 
-const ItalicButton =({value, onChange, className, style, type, }) => { 
+const ItalicButton =({value, onChange, className, style, type, }) => (
     <Button
         style={style}
         type={type}
@@ -16,5 +16,5 @@ const ItalicButton =({value, onChange, className, style, type, }) => {
     >
             <FontAwesome name="italic"/>
     </Button>
-}
+)
 export default ItalicButton

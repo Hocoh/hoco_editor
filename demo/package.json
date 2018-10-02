@@ -1,11 +1,12 @@
 {
   "name": "@hoco_editor/demo",
   "version": "1.2.0",
-  "main": "index.js",
+  "main": "dist2/index.html",
   "license": "MIT",
   "scripts": {
-    "dev": "node server.js",
-    "build": "webpack --config config/webpack.config.js"
+    "dev": "node http.js",
+    "build": "NODE_ENV=production webpack --mode production --config config/webpack.config.js",
+    "draft": "NODE_ENV=development webpack --mode development  --config config/webpack.config.js"
   },
   "dependencies": {
     "@hoco_editor/bold_plugin": "1.2.0",
@@ -19,7 +20,8 @@
     "history": "^4.7.2",
     "react": "^16.5.2",
     "react-dom": "^16.2.0",
-    "react-router": "^4.2.0"
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
@@ -32,6 +34,7 @@
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^4.3.1",
     "style-loader": "^0.23.0",
+    "terser-webpack-plugin": "^1.1.0",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.20.2",
     "webpack-bundle-analyzer": "^3.0.2",

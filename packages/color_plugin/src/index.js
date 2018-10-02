@@ -7,7 +7,7 @@ import ColorKeyboardShortcut from "./ColorKeyboardShortcut"
 // utils 
 import  * as ColorUtils from "./ColorUtils"
 import ColorButton from "./ColorButton"
-import ColorStateModel from "./ColorSlateModel"
+import ColorStateModel from "./ColorStateModel"
 
 // selection
 import SelectionPickerColorUpdate from "./SelectionPickerColorUpdate"

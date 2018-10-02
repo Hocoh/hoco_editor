@@ -16,11 +16,11 @@ import {Editor} from "slate-react"
 
 // Marks
 
-import { BoldMark} from "@hoco_editor/bold-plugin"
-import { ColorMark} from "@hoco_editor/color-plugin"
-import { FontFamilyMark} from "@hoco_editor/font-family-plugin"
-import { FontSizeMark} from "@hoco_editor/font-size-plugin"
-import { ItalicMark} from "@hoco_editor/italic-plugin"
+import { BoldMark} from "@hoco_editor/bold_plugin"
+import { ColorMark} from "@hoco_editor/color_plugin"
+import { FontFamilyMark} from "@hoco_editor/font_family_plugin"
+import { FontSizeMark} from "@hoco_editor/font_size_plugin"
+import { ItalicMark} from "@hoco_editor/italic_plugin"
 
 // all node cases are proposed in the switch function 
 
@@ -73,7 +73,7 @@ export default ({
                 contextState={contextState}
 
                 onChange={onChange}
-                renderNode={renderNode}
+                // renderNode={renderNode}
                 renderMark={renderMark}
 
                 readOnly={readOnly}
